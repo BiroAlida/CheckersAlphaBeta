@@ -1,4 +1,4 @@
-# ChekersAlphaBeta
+# CheckersAlphaBeta
 
 A dámajáték szabályai:  
 
@@ -21,4 +21,6 @@ A játék akkor ér véget, amikor az egyik játékosnak elfogytak a bábui, vag
 Implementálás:
 
 Minimax és alfa-béta nyesésre alapozik
-Kezdetben meg kell adni a koordinátáit annak a bábunak mellyel lépni szeretnénk, amennyiben a lépés helyes megadjuk annak a poziciónak a koordinátáit, ahová lépni szeretnénk.
+Kezdetben meg kell adni a koordinátáit annak a bábunak mellyel lépni szeretnénk, amennyiben a lépés helyes megadjuk annak a pozíciónak a koordinátáit, ahová lépni szeretnénk.
+A heurisztikus függvény azt számolja ki, hogy a 'B' bábunak mennyivel van több bábuja a táblán mint ellenfelének.
+
